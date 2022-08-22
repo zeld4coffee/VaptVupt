@@ -1,4 +1,7 @@
-/* roxo: 1b0829, roxo claro: 483953 */
+:root {
+    --primary: #1b0829;
+    --second: #483953;
+}
 
 * {
     margin: 0;
@@ -9,3 +12,37 @@
 html {
     min-height: 100vh;
 }
+
+body {
+    background-color: var(--primary);
+}
+
+.header-container {
+    background-color: var(--second);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
+    padding: 16px;
+  }
+
+  .footer-container {
+    background-color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 70px;
+    opacity: 0.8;
+    padding: 16px;
+  }
+  
+  .footer-container .copyright {
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+    color: #fff;
+  }
