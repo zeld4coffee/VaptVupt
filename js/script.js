@@ -1,1 +1,1 @@
-console.log("Hello Console!");
+alert("Site em Construção!");
