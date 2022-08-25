@@ -1,6 +1,6 @@
 :root {
   --headercolor: #ffad60;
-  --footercolor: #fcde98;
+  --footercolor: #fad683;
   --bodycolor: #fff;
   --fontcolor: #000;
 }
@@ -30,7 +30,7 @@ body {
 
 .footer-container {
   background-color: var(--footercolor);
-  position: absolute;
+  position: realtive;
   left: 0;
   bottom: 0;
   display: flex;
